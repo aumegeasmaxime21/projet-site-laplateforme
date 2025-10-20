@@ -1,0 +1,71 @@
+/* entete */
+
+.lien {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+
+}
+
+a {
+    color:blue;
+    text-decoration: none;
+}
+
+/* entete */
+/* contenu */
+
+.contenu {
+    display:flex;
+    flex-direction: row;
+    background-color: DodgerBlue;
+}
+.contenu div {
+  background-color: DodgerBlue;
+  margin: 10px;
+  padding: 20px;
+  }
+
+img {
+    width: 60%;
+    border-radius: 8px;
+}
+
+#titrephoto {
+    font-size: 20px;
+}
+
+.textephoto {
+    font-size: 25px;
+}
+
+#formulaire {
+    background-color: white;
+    font-size: 30px;
+}
+
+/* contenu */
+/* bandeau bas */
+#cel1 {
+     display:flex;
+     flex-direction: row;
+     font-size: 30px;
+}
+#bandeaubas {
+    display:flex;
+    width: 100%;
+    align-content: stretch;
+    background-color: grey;
+    justify-content: space-around
+}
+
+.bas {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 13px;
+    background-color: grey;
+
+}
+/* bandeau bas */

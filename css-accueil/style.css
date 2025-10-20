@@ -1,0 +1,69 @@
+
+
+
+/* entete */
+
+
+.lien {
+    flex-direction: row;
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+
+}
+
+a {
+    color:blue;
+    text-decoration: none;
+}
+
+/* entete */
+
+/* contenu */
+.container {
+    display: flex;
+    background-color: DodgerBlue;
+}
+
+img {
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.titrephoto {
+    font-family: Georgia, serif;
+    font-size: 40px;
+}
+
+.textephoto {
+    font-family: Georgia, serif;
+    font-size: 30px;
+}
+/* contenu */
+/* bandeau bas */
+#cel1 {
+     display:flex;
+     flex-direction: row;
+     font-size: 30px;
+}
+#bandeaubas {
+    display:flex;
+    width: 100%;
+    align-content: stretch;
+    background-color: grey;
+    justify-content: space-around
+}
+
+.bas {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 13px;
+    background-color: grey;
+
+}
+/* bandeau bas */
+
+
+

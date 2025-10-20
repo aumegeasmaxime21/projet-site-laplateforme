@@ -1,0 +1,67 @@
+/* entete */
+
+.lien {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+
+}
+
+a {
+    color:blue;
+    text-decoration: none;
+    }
+
+/* entete */
+/* contenu */
+#titre {
+    font-size: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.container {
+  display: flex;
+  }
+
+.container div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+.logo{
+    display:flex;
+    justify-content: space-around;
+}
+.logoseul {
+    width: 10%;
+    display:flex;
+    justify-content: center;
+}
+
+
+/* contenu */
+/* bandeau bas */
+#cel1 {
+     display:flex;
+     flex-direction: row;
+     font-size: 30px;
+}
+#bandeaubas {
+    display:flex;
+    width: 100%;
+    align-content: stretch;
+    background-color: grey;
+    justify-content: space-around
+}
+
+.bas {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 13px;
+    background-color: grey;
+
+}
+/* bandeau bas */

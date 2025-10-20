@@ -1,0 +1,117 @@
+/* entete */
+
+header {
+    background-color: white;
+}
+
+.lien {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+a {
+    color:blue;
+    text-decoration: none;
+}
+
+/* entete */
+/* contenu */
+body {
+    background-color: #b8b9b6;
+}
+
+#entetegeneral {
+    display:flex;
+    width: 100%;
+    padding-top: 10px;
+}
+#imgentete {
+    width: 100%;
+}
+
+.entete {
+    background-color: DodgerBlue;
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    text-indent: 1%;
+}
+
+#logoentete {
+     width: 25%;
+}
+
+#basentete {
+    display:flex;
+    background-color: DodgerBlue;
+    justify-content: space-evenly;
+}
+.racourcientete {
+    background-color: red;
+    border: 2px solid;
+    margin: 5px;
+}
+.margetitre {
+    text-indent: 1%;
+}
+.margetext {
+    text-indent: 2%;
+}
+.margelist {
+    margin-left: 2%;
+}
+.txtgras {
+    font-weight: bold;
+}
+#presentation {
+    background-color: DodgerBlue;
+    padding-left: 0.5%;
+}
+#listatout {
+    font-size: 18px;
+    list-style-type: decimal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contenu */
+
+/* bandeau bas */
+#cel1 {
+     display:flex;
+     flex-direction: row;
+     font-size: 30px;
+}
+#bandeaubas {
+    display:flex;
+    width: 100%;
+    align-content: stretch;
+    background-color: grey;
+    justify-content: space-around
+}
+
+.bas {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 13px;
+    background-color: grey;
+
+}
+/* bandeau bas */
