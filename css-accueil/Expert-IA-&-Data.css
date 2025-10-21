@@ -53,7 +53,7 @@ body {
 .racourcientete {
     background-color: red;
     border: 2px solid;
-    margin: 5px;
+    padding: 5px;
 }
 .margetitre {
     text-indent: 1%;
@@ -216,19 +216,64 @@ body {
 }
 .txt-faq {
     margin-left: 40px;
-
-
 }
-
-
-
-
-
-
-
-
-
-
+#bas-page-general {
+    display: flex;
+    width: 100%;
+    background-color: DodgerBlue;
+    justify-content: space-around;
+}
+.bas-page-indiv {
+    width : 40%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#cel-vous {
+    margin-left: 4%;
+    font-family: Noto Sans, sans-serif;
+    font-size: 20px;
+}
+#cel-hesitez {
+    margin-left: 4%;
+    font-family: Noto Sans, sans-serif;
+    font-size: 20px;
+}
+#cel-contact {
+    display: flex;
+    justify-content: space-around;
+}
+#contact {
+    background-color: red;
+    border: 2px solid;
+    padding: 10px;
+    color: black;
+    font-family: Noto Sans, sans-serif;
+    font-size: 20px;
+}
+.txt-cel-droite {
+    margin-left: 4%;
+    font-family: Noto Sans, sans-serif;
+    text-decoration-line: underline;
+}
+#cel-afpp-gene {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+#cel-afpp-img {
+    width:20%;
+    display: flex;
+    align-items: flex-end;
+}
+#img-afpp {
+    width:80%;
+    margin: 10px;
+}
+#cel-afpp-txt {
+    margin-left: 2%;
+    width:75%;
+    line-height: 1.8;
+}
 /* contenu */
 
 /* bandeau bas */
