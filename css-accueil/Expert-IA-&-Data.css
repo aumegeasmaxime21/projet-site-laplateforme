@@ -21,6 +21,7 @@ a {
 body {
     background-color: #b8b9b6;
     margin: 0px;
+    font-family: Apple Chancery, cursive;
 }
 
 #entetegeneral {
@@ -70,12 +71,12 @@ body {
     background-color: DodgerBlue;
     padding-left: 0.5%;
 }
-#listatout {
-    font-size: 22px;
+#list-atout {
+    font-size: 20px;
     list-style-type: upper-roman;
     margin-bottom: 15px;
 }
-.listindiv {
+.list-atout-indiv {
     margin-left: 25px;
     padding-bottom: 15px;
 }
@@ -121,6 +122,104 @@ body {
 .tromb-intervenant {
     background-color: 	#474747;
 }
+#list-emploi {
+    display:flex;
+    flex-wrap: wrap;
+    font-family: Noto Sans, sans-serif;
+    margin-left: 20px;
+    line-height: 32px;
+    gap: 30px;
+    list-style-type: square;
+}
+.list-emp-element {
+    color: white;
+    padding: 10px;
+    background-color: 	#474747;
+    list-style-type: none;
+    border-left-style: solid;
+    border-width: 5px;
+    border-color:   DodgerBlue;
+}
+#list-domaine {
+    margin-left: 20px;
+    font-family: Noto Sans, sans-serif;
+    line-height: 1.8;
+}
+#list-general-prog {
+    list-style-type: none;
+}
+.list-titre-prog {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Noto Sans, sans-serif;
+}
+.list-inter-prog {
+    list-style-type: none;
+}
+.titre-inter {
+    border-left: solid;
+    padding-left: 10px;
+    border-width: 3px;
+    border-color: DodgerBlue;
+}
+.list-indiv-prog {
+    list-style-type: none;
+    line-height: 1.8;
+    font-family: Noto Sans, sans-serif;
+
+}
+#gene-temoig {
+    display: flex;
+    width : 100%;
+    justify-content: space-around;
+}
+.indiv-temoig {
+    display: flex;
+    flex-direction: column;
+    width : 30%;
+    background-color: #474747;
+    color: white;
+    border-radius : 10px;
+}
+.img-temoig {
+    width : 30%;
+    display: block;
+    margin: auto;
+}
+.txt-temoig {
+    margin:10px;
+    text-indent: 20px;
+}
+.nom-temoig {
+    text-indent: 20px;
+    margin: 3px;
+}
+.class-temoig {
+    text-indent: 30px;
+    margin: 3px;
+    color: #bfbfbf;
+}
+.list-processus {
+    margin-left: 20px;
+    line-height: 1.8;
+    font-family: Noto Sans, sans-serif;
+}
+#txt-financement {
+    margin-left: 40px;
+    text-indent: 20px;
+}
+#list-faq {
+    margin-left: 20px;
+    line-height: 1.8;
+    font-family: Noto Sans, sans-serif;
+}
+.txt-faq {
+    margin-left: 40px;
+
+
+}
+
 
 
 
