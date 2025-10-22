@@ -17,15 +17,38 @@ a {
 /* entete */
 
 /* contenu */
-#entete-ia-school {
-   background-image: url("../Photo-ia-school/montage-categorie-ia-2-scaled.webp");
- /*  background-image: url("https://laplateforme.io/wp-content/uploads/2022/05/montage-categorie-ia-2-scaled.webp");*/
 
+#entete-ia-school-gene {
+    background-image: url("../Photo-ia-school/montage-categorie-ia-2-scaled.webp");
+    width: 100%;
+    border-radius: 20px;
+    background-size: cover;
 }
-
-
-
-
+#entete-ia-school-indiv {
+    width: 33%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#titre-entete-ia-school {
+    font-size: 50px;
+    font-family: Noto Sans, sans-serif;
+    margin-left: 5%;
+}
+#sous-titre-entete-ia-school {
+    font-size: 25px;
+    font-family: Noto Sans, sans-serif;
+    margin-left: 5%;
+}
+#txt-entete-ia-school {
+    font-size: 25px;
+    font-family: Noto Sans, sans-serif;
+    margin-left: 5%;
+}
+#txt-blue {
+    color: blue;
+}
 .txt-gras {
     font-weight: bold;
 }
@@ -79,7 +102,7 @@ a {
 }
 .cel-savoir {
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 .txt-savoir {
     font-size: 18px;
@@ -90,6 +113,66 @@ a {
 #align-cell {
     margin-top: 40px;
 }
+#txt-bas-nos-forma {
+    margin-left: 9%;
+    padding-right: 9%;
+}
+#cel-gene-enjeux {
+    width: 100%;
+    display: flex;
+    background-color: #1c366d;
+    flex-direction: column;
+    color: white;
+    font-family: Noto Sans, sans-serif;
+}
+#cel-inter-enjeux {
+    display: flex;
+    width: 100%;
+}
+.cel-indiv-enjeux {
+    width: 50%;
+    margin-left: 2%;
+    padding-right: 2%;
+    margin-top: 5%;
+}
+#cel-information {
+    display: flex;
+    justify-content: center;
+}
+#txt-cel-information {
+    font-size: 18px;
+    background-color: red;
+    border: 2px solid;
+    padding: 5px;
+}
+#cel-gene-les-plus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cel-txt-les-enjeux {
+    margin-left: 20%;
+    margin-right: 20%
+}
+#txt-les-enjeux {
+    text-align: center;
+    font-size: 18px;
+    font-family: Courier New, monospace;
+}
+#cel-deposer {
+    display: flex;
+}
+#txt-deposer {
+    font-size: 18px;
+    background-color: red;
+    border: 2px solid;
+    padding: 5px;
+}
+
+
+
+
 
 
 
