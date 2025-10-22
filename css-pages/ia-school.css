@@ -1,0 +1,126 @@
+/* entete */
+
+
+.lien {
+    flex-direction: row;
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+
+}
+
+a {
+    color:blue;
+    text-decoration: none;
+}
+
+/* entete */
+
+/* contenu */
+
+
+
+
+
+.txt-gras {
+    font-weight: bold;
+}
+.img-info {
+    width:90%;
+    margin-top: 20px;
+}
+#cel-info-gene {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #ededed;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px #d6d6d6;
+}
+.cel-info-indiv {
+    display: flex;
+    width: 19%
+}
+.txt-info {
+    font-size: 20px;
+    font-family: Trebuchet MS, sans-serif;
+}
+#titre-nos-forma {
+    text-align: center;
+    font-family: Noto Sans, sans-serif;
+}
+#cel-forma-ia-gene {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.cel-forma-ia-indiv {
+    display: flex;
+    width: 32%;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: #ededed;
+    box-shadow: 10px 5px 5px #d6d6d6;
+    border: 1px solid;
+    border-color: DodgerBlue;
+}
+.img-forma-ia {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.txt-forma-ia {
+    margin-left: 10px;
+    padding-right: 10px;
+    font-family: Arial Narrow, sans-serif;
+}
+.cel-savoir {
+    display: flex;
+    justify-content: center
+}
+.txt-savoir {
+    font-size: 18px;
+    background-color: red;
+    border: 2px solid;
+    padding: 5px;
+}
+#align-cell {
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contenu */
+
+/* bandeau bas */
+#cel1 {
+     display:flex;
+     flex-direction: row;
+     font-size: 30px;
+}
+#bandeaubas {
+    display:flex;
+    width: 100%;
+    align-content: stretch;
+    background-color: grey;
+    justify-content: space-around
+}
+
+.bas {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 13px;
+    background-color: grey;
+
+}
+/* bandeau bas */
