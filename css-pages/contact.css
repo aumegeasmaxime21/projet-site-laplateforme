@@ -20,12 +20,10 @@ a {
     display:flex;
     flex-direction: row;
     background-color: DodgerBlue;
+    padding: 5%;
+    border-radius: 15px;
+    margin-top: 15px;
 }
-.contenu div {
-  background-color: DodgerBlue;
-  margin: 10px;
-  padding: 20px;
-  }
 
 img {
     width: 60%;
@@ -44,7 +42,155 @@ img {
     background-color: white;
     font-size: 30px;
 }
+/* formulaire */
+#cel-titre {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    padding :0;
+}
 
+#cel-gene-formulaire {
+    display: flex;
+    width: 600px;
+    background-color: white;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    padding: 10px;
+}
+#cel-ranger-un {
+    padding: 0px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+#cel-ranger-un div {
+    padding: 0;
+    margin: 0;
+}
+
+#select {
+    font-size: 15px;
+    width: 84px;
+    box-sizing: border-box;
+    border: 2px solid dodgerblue;
+    border-radius: 8px;
+    padding: 4px;
+}
+#prenom {
+    font-size: 15px;
+    width: 125px;
+    box-sizing: border-box;
+    border: 2px solid dodgerblue;
+    border-radius: 8px;
+    padding: 4px;
+}
+#nom {
+    font-size: 15px;
+    width: 125px;
+    box-sizing: border-box;
+    border: 2px solid dodgerblue;
+    border-radius: 8px;
+    padding: 4px;
+}
+#cel-ranger-deux {
+    padding: 0px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+
+}
+#cel-ranger-deux div {
+    padding: 0;
+    margin: 0;
+}
+#email-form {
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid dodgerblue;
+    border-radius: 8px;
+    padding: 4px;
+}
+#numero-telephone {
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid dodgerblue;
+    border-radius: 8px;
+    padding: 4px;
+
+}
+.cel-indi-ranger-deux {
+    width: 45%;
+}
+#cel-ranger-menu {
+    padding: 0px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center
+}
+
+#menu {
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid dodgerblue;
+    border-radius: 8px;
+    padding: 4px;
+}
+#cel-ranger-message {
+    padding: 0px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center
+}
+#textarea {
+    font-size: 15px;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    border: 2px solid dodgerblue;
+    border-radius: 8px;
+    padding: 4px;
+    resize: none;
+}
+#cel-news {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#newsletter {
+    padding-left: 5px;
+}
+#txtloi {
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#cel-button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+/* formulaire */
 /* contenu */
 /* bandeau bas */
 #cel1 {

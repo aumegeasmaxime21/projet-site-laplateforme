@@ -30,6 +30,7 @@
 
 <!-- contenu -->
 
+
 <main>
 
 <div class="contenu">
@@ -41,41 +42,72 @@
         <p class="textephoto">nos projets et actions ? Contactez-nous. </p>
         <a><img src="./HP_visual_light.jpg" alt="image d'accueil"></a>
     </div>
-    <div>
-        <div><p id="formulaire">La Plateforme / Contact</p></div>
-        <div>
-            <label for="select"></label>
-            <select name="civilité" id="select">
-                <option value="civilité*" required>civilité*</option>
-                <option value="Mr" required>Mr</option>
-                <option value="Mde" required>Mde</option>
-                <option value="Mx" required>Mx</option>
+<!--formulaire-->
+    <div id="cel-gene-formulaire">
+        <div id="cel-titre"><h2 id="titre-formulaire">La Plateforme / Contact</h2></div>
+        <div id="cel-ranger-un">
+            <div>
+                <label for="select" ></label>
+                <select name="civilité" id="select">
+                    <option value="civilité*" required>Civilité*</option>
+                    <option value="Mr" required>Mr</option>
+                    <option value="Mde" required>Mde</option>
+                    <option value="Mx" required>Mx</option>
+                </select>
+            </div>
+            <div>
+                <label for="prenom"></label>
+                <input id="prenom" type="text" name="Prenom" placeholder="Prénom*" required>
+            </div>
+            <div>
+                <label for="nom"></label>
+                <input id="nom" type="text" name="nom" placeholder="nom*" required>
+            </div>
+        </div>
+        <div id="cel-ranger-deux">
+            <div class="cel-indi-ranger-deux">
+                <label for="email-form"></label>
+                <input type="email" id="email-form" name="email" placeholder="email*" required>
+            </div>
+            <div class="cel-indi-ranger-deux">
+                <label for="numero-telephone"></label>
+                <input id="numero-telephone" type="tel" name="numero-telephone" placeholder="01-23-45-67-89"
+                   pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required>
+            </div>
+        </div>
+        <div id="cel-ranger-menu">
+            <label for="menu"></label>
+            <select name="Motif-de-contact" id="menu">
+                <option value="motif-de-contact" required>Selectionner un motif de contact</option>
+                <option value="orientation-et-aide" required>Aide à l'orientation et information sur les programmes</option>
+                <option value="relations-entreprises" required>Relations entreprises</option>
+                <option value="Presse-Partenariat-Communication" required>Presse/Partenariat/Communication</option>
+                <option value="Suivi-de-candidatures" required>Suivi de candidatures</option>
+                <option value="Recrutement-RH" required>Recrutement RH</option>
+                <option value="Taxe-d'apprentissage" required>Taxe d'apprentissage</option>
+                <option value="autre" required>autre</option>
             </select>
         </div>
+        <div id="cel-ranger-message">
+            <label for="textarea"></label>
+            <textarea id="textarea" name="text" placeholder="message" required></textarea>
+        </div>
+        <div id="cel-news">
+            <input  id="recevoir-newsletter" type="checkbox" name="newsletter" value="newsletter">
+            <label for="recevoir-newsletter" id="newsletter">J'accepte de recevoir des informations de la part de La Plateforme</label>
+        </div>
+        <div>
+            <p id="txtloi">Selon l'article L.223-2 du code de la consommation, il est rappelé que le consommateur peut user
+                de son droit à s'inscrire sur la liste d'opposition au démarchage téléphonique bloctel :
+                bloctel.gouv.fr</p>
 
-        <div>
-            <label for="prénom"></label>
-            <input id="prénom" type="text" name="Prénom" placeholder="Prénom*" required>
         </div>
-        <div>
-            <label for="nom"></label>
-            <input id="nom" type="text" name="nom" placeholder="nom*" required>
+        <div id="cel-button">
+            <button type="button" onclick="alert('Envoyer')">envoyer</button>
         </div>
-        <div>
-            <label for="email-form"></label>
-            <input type="email" id="email-form" name="email" placeholder="email*" required>
-        </div>
-        <div>
-            <label for="numero-telephone"></label>
-            <input id="numero-telephone" type="tel" name="numero-telephone" placeholder="n°"
-                   pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required>
-        </div>
-
-
     </div>
-
 </div>
-
+<!--formulaire-->
 </main>
 <!-- contenu -->
 
